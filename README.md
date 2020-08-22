@@ -38,16 +38,12 @@ import FadingEdge from 'react-native-fading-edge';
 
 const App = () => (
   <FadingEdge
-  	top={50}
-		left={50}
-		bottom={50}
-  	right={50}
+    top={50}
+    left={50}
+    bottom={50}
+    right={50}
   >
-    <View style={{
-				flex: 1,
-  			backgroundColor: '#212121'
-    	}}
-  	>
+    <View style={{ flex: 1, backgroundColor: '#212121' }}>
       <Text>
       	Hello, World.
       </Text>
