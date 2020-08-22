@@ -66,7 +66,7 @@ interface FadingEdgeProps extends ReactNative.ViewProps {
 
 ## Motivation
 
-Firstly I use [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient) and [react-native-masked-view](https://github.com/react-native-community/react-native-masked-view) to implement this effect: 
+Firstly I use [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient) and [react-native-masked-view](https://github.com/react-native-community/react-native-masked-view) to implement this effect:
 
 ```jsx
 import MaskedView from '@react-native-community/masked-view';
@@ -77,10 +77,10 @@ const FadingEdge = ({ children }) => (
     maskedElement={
       <LinearGradient
         colors={[
-          'rgba(255, 255, 255,1)', 
+          'rgba(255, 255, 255,1)',
           'rgba(255, 255, 255,0)'
         ]}
-      >
+      />
     }
   >
     {children}
@@ -94,7 +94,10 @@ So I found the [Android-FadingEdgeLayout](https://github.com/bosphere/Android-Fa
 
 ## Thanks
 
-- [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient) 
+- [Android-FadingEdgeLayout](https://github.com/bosphere/Android-FadingEdgeLayout)
+  
+- [react-native-linear-gradient](https://github.com/react-native-community/react-native-linear-gradient)
+
 - [react-native-masked-view](https://github.com/react-native-community/react-native-masked-view)
 
 ## License
