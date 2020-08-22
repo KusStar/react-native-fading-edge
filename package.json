@@ -1,0 +1,16 @@
+{
+  "name": "react-native-fading-edge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "author": {
+    "name": "KusStar",
+    "url": "https://github.com/KusStar"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KusStar/react-native-fading-edge.git"
+  }
+}
